@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+
+        <header>Kayıt Formu</header>
+        <form action="#" class="form">
+
+            <div class="input-box">
+                <label>Adınız</label>
+                <input type="text" placeholder="Adınızı Giriniz..." required>
+            </div>
+
+            <div class="input-box">
+                <label>Email</label>
+                <input type="text" placeholder="Emailinizi Giriniz..." required>
+            </div>
+            <div class="column">
+
+                <div class="input-box">
+                    <label>Telefon</label>
+                    <input type="number" placeholder="Telefonunuzu Giriniz..." required>
+                </div>
+
+                <div class="input-box">
+                    <label>Doğum Tarihi</label>
+                    <input type="date" placeholder="Doğum Tarihinizi Giriniz..." required>
+                </div>
+
+            </div>
+
+            <div class="gender-box">
+                <h3>Cinsiyet</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked>
+                        <label for="check-male">Erkek</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" checked>
+                        <label for="check-male">Kadın</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" checked>
+                        <label for="check-male">Belirtmek İstemiyorum</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="input-box address">
+                <label>Adres</label>
+                <input type="text" placeholder="Adresinizi Giriniz..." required>
+                <input type="text" placeholder="Adres Tarifi(İsteğe bağlı)" required>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Ülke</option>
+                            <option>Türkiye</option>
+                            <option>Germany</option>
+                            <option>Italy</option>
+                            <option>England</option>
+                            <option>Spain</option>
+                            <option>Australia</option>
+                            <option>Belgium</option>
+                            <option>Denmark</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Şehir Giriniz..." required>
+                </div>
+                <div class="column">
+                    <input type="text" placeholder="Bölgeyi Giriniz..." required>
+                    <input type="number" placeholder="Posta Kodunu Giriniz..." required>
+                </div>
+            </div>
+            <button class="btn">Gönder</button>
+        </form>
+
+    </section>
+
+</body>
+
+</html>
